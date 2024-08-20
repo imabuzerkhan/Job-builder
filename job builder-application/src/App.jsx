@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import App_layout from './layout/App-layout';
+import App_layout from './layouts/App-layout';
 import Landingpage from './pages/Landingpage';
 import Onboarding from './pages/Onboarding';
 import Job_listing from './pages/Job_listing';
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
 const App = () => {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-    <RouterProvider router={router} />;
+    <RouterProvider router={router} />
     </ThemeProvider>
   )
 
