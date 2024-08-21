@@ -60,6 +60,14 @@
 }
 
 
+@layer utlities{
+  .gradient {
+    @apply  bg-gradient-to-br   bg-gray-500 via-gray-200  to-white
+  }
+  .gradient-title{
+    @apply gradient text-transparent bg-clip-text
+  }
+}
 
 
 
