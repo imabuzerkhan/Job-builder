@@ -11,6 +11,8 @@ import faqs from "../data/faq.json";
 import {
   Accordion,
   AccordionContent,
+
+  // maine bhau dini se updated nhi kiya huu uske liye majra
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
