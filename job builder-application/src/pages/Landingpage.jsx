@@ -101,6 +101,11 @@ const LandingPage = () => {
       </Accordion>
     </main>
   );
+
+// sorry for today guys
+
+
+
 };
 
 export default LandingPage;
