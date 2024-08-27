@@ -55,7 +55,7 @@ const handleOverlayClick = (e) =>{
                 <UserButton.Link
                   label="My Jobs"
                   labelIcon={<BriefcaseBusiness size={15} />}
-                  href="/MyJob"
+                  href="/MyJobs"
                 />
                 <UserButton.Link
                   label="Saved Jobs"
