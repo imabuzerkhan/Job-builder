@@ -11,14 +11,21 @@ const Header = () => {
      <Link>
      <img src='/logo.png' className='h-20' />
      </Link>
+    
+    <div className='flex gap-8' >
+    <SignedOut>
      <Button variant="outline" >Login/Singup</Button>
-
-     {/* <SignedOut>
-        <SignInButton />
       </SignedOut>
       <SignedIn>
+        <Link to={'/Posting'} >
+        <Button variant= "destructive" className="rounded-full" ></Button>
+        Post a Job
+        </Link>
         <UserButton />
-      </SignedIn> */}
+      </SignedIn>
+    </div>
+
+     
 
      </nav>
      
