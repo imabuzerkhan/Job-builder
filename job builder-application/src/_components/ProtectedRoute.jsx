@@ -7,7 +7,7 @@ const ProtectedRoute = ({Children}) => {
 const {pathname} = useLocation()
 
 if(isLoaded && !isSignedIn && isSignedIn !== undefined ){
-  return <Navigate to='/?sign-in=true'/>
+  return <Navigate to='/?sign-in = true'/>
 }
 // do somecoding abuzer yaar
 
