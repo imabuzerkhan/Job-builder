@@ -9,8 +9,7 @@ const {pathname} = useLocation()
 if(isLoaded && !isSignedIn && isSignedIn !== undefined ){
   return <Navigate to='/?sign-in = true'/>
 }
-// do somecoding abuzer yaar
-// why i am doing so lazy for doing coding 
+
 
 
   return Children ;
